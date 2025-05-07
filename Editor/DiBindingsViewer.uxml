@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:Toolbar>
+        <ui:Button text="Refresh" name="refresh-button" />
+    </uie:Toolbar>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column;">
+        <ui:Label text="Mode: Initializing..." name="mode-label" style="padding: 5px; -unity-font-style: bold;" />
+        <ui:ScrollView name="bindings-scrollview" mode="Vertical" style="flex-grow: 1;">
+            <ui:VisualElement name="bindings-container" style="flex-grow: 1; flex-direction: column;" />
+        </ui:ScrollView>
+        <ui:Label text="Status: Ready" name="status-label" style="padding: 3px; font-size: 10px; -unity-text-align: middle-left; border-top-width: 1px; border-top-color: rgb(50, 50, 50);" />
+    </ui:VisualElement>
+</ui:UXML>

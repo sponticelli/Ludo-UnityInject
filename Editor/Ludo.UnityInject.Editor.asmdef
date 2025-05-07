@@ -1,0 +1,19 @@
+{
+    "name": "Ludo.UnityInject.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:479d1861db65e41fbb90b275073c9b9b",
+        "GUID:478a2357cc57436488a56e564b08d223"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
